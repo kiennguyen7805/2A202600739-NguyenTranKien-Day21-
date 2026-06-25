@@ -1,0 +1,17 @@
+prompt,base,finetuned
+Giải thích khái niệm machine learning cho người mới bắt đầu.,"Machine learning là một phân khúc của trí tuệ nhân tạo, nó tập trung vào việc thiết lập các mô hình máy móc để học từ dữ liệu và từ đó dự đoán hoặc phân loại dữ liệu mới. Nhìn vào khía cạnh đơn giản, nó có nghĩa là máy học, hoặc máy tự học. Mô hình học được từ dữ liệu trước, sau đó dự đoán hoặc phân",Machine learning là một bộ môn công nghệ máy tính dựa trên việc học tập và cải thiện các dự đoán dựa trên dữ liệu mà không có sự hướng dẫn trực tiếp từ người dùng. Nó là một phần của AI (nền tảng trí thông minh nhân tạo). Machine learning sử dụng thuật toán và mô hình máy tính để học từ dữ liệu và t
+Viết đoạn code Python tính số Fibonacci thứ n.,"Để tính số Fibonacci thứ n, bạn có thể sử dụng hàm đệ quy hoặc vòng lặp. Đây là một đoạn mã Python cho phép bạn tính số Fibonacci thứ n bằng cách sử dụng vòng lặp. ```python def fibonacci(n): if n <= 0: return None if n == 1: return 0 elif n == 2: return 1 else: a, b = 0, 1 for _ in range(2, n): a, ","Để tính số Fibonacci thứ n, bạn có thể sử dụng đệ quy hoặc vòng lặp. Đây là một ví dụ về cách tính số Fibonacci thứ n bằng vòng lặp:
+
+```python
+def fibonacci(n):
+    if n <= 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        a, b = 0, 1
+        for _ in range(2, n+1):
+          "
+Liệt kê 5 nguyên tắc thiết kế UI/UX.,1. **Giới thiệu**: 5 nguyên tắc thiết kế UI/UX bao gồm: 1. **Giới thiệu**: 1. **Giới thiệu**: 1. **Giới thiệu**: 1. **Giới thiệu**: 1. **Giới thiệu**: 1. **Giới thiệu**: 1. **Giới thiệu**: 1. **Giới thiệu**: 1. **Giới thiệu**: 1. **Giới thiệu**: 1. **Giới thiệu**: 1. **Giới thiệu**: 1. **Giới thiệu*,1. **Chuẩn bị**: Tạo một kế hoạch trước khi bắt đầu thiết kế UI/UX. 2. **Thấu hiểu**: Thấu hiểu nhu cầu và mong muốn của người dùng là chìa khóa để tạo ra trải nghiệm người dùng tốt nhất. 3. **Tính dễ sử dụng**: Thiết kế UI/UX phải dễ sử dụng và dễ tiếp cận. Người dùng phải có thể sử dụng sản phẩm m
+Tóm tắt sự khác biệt giữa LoRA và QLoRA.,LoRA (Low-Rank Adaptation) và QLoRA (Quantized LoRA) là hai phương pháp khác nhau được sử dụng để cải thiện hiệu suất của mô hình NLU (NLP) đã được huấn luyện. LoRA được sử dụng để giảm số lượng tham số của mô hình NLU đã được huấn luyện bằng cách thêm các tham số bổ sung để thay thế một phần của cá,LoRA (Low-Rank Adaptation) và QLoRA (Quantized LoRA) là hai phương pháp khác nhau được sử dụng để cải thiện hiệu suất của mô hình NLP (Nền tảng học máy NLP) bằng cách sử dụng kỹ thuật giảm kích thước. LoRA sử dụng kỹ thuật để giảm kích thước mô hình bằng cách thay thế các thành phần của nó bằng các 
+"Phân biệt prompt engineering, RAG, và fine-tuning.","Prompt Engineering, RAG và Fine-tuning là ba kỹ thuật khác nhau trong AI để cải thiện tính hiệu quả và khả năng thực thi của mô hình ngôn ngữ. - **Prompt Engineering:** Prompt Engineering là kỹ thuật tạo ra các prompt (dòng lệnh) cho mô hình NLP để làm cho nó dễ tiếp cận và hiệu quả hơn. Các prompt ","Prompt Engineering, RAG (Retrieval-Augmented Generation), và Fine-tuning là ba kỹ thuật khác nhau được sử dụng trong AI để cải thiện hiệu suất của mô hình AI. 1. Prompt Engineering: Prompt Engineering là kỹ thuật sử dụng câu lệnh hoặc prompt để cung cấp thông tin cho mô hình AI, giúp nó có thể hiểu "

@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Custom ignored files for Lab 21
+*.zip
+temp_r16/
+
